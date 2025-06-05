@@ -115,6 +115,6 @@ app.use('/api/patients', patientRoutes);
     app.use('/api/files', imageRouter);
     app.use('/api/groq-generate-advice',advise);
     app.use('/api/send-whatsapp',wasend);
-    app.use('/api/ai',aides);
+    app.use('/api/generate-descriptions',aides);
 
 
